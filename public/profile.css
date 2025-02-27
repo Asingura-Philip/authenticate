@@ -1,0 +1,87 @@
+/* Profile page styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .profile-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard {
+    text-align: center;
+  }
+  
+  .dashboard h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .logout {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .logout:hover {
+    text-decoration: underline;
+  }
+  
+  .profile-details {
+    margin-top: 20px;
+  }
+  
+  .profile-details .profile-picture {
+    text-align: center;
+  }
+  
+  .profile-details img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .profile-details input[type="file"] {
+    margin-top: 10px;
+  }
+  
+  .user-info {
+    margin-top: 20px;
+  }
+  
+  .update-profile {
+    margin-top: 30px;
+  }
+  
+  .update-profile form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .update-profile input[type="text"],
+  .update-profile input[type="email"] {
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .update-profile button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .update-profile button:hover {
+    background-color: #0056b3;
+  }
+  
